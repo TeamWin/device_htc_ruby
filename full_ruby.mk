@@ -237,9 +237,10 @@ $(call inherit-product, device/htc/ruby/media_htcaudio.mk)
 # stuff common to all HTC phones
 $(call inherit-product, device/htc/common/common.mk)
 
-$(call inherit-product, build/target/product/full_base_telephony.mk)
+#$(call inherit-product, build/target/product/full_base_telephony.mk)
 
 PRODUCT_NAME := full_ruby
+PRODUCT_BRAND := HTC
 PRODUCT_DEVICE := ruby
 PRODUCT_MODEL := HTC Amaze 4g
 PRODUCT_MANUFACTURER := HTC
